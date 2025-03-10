@@ -1,0 +1,75 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  font-size: 1rem;
+  width: 100%;
+  height: auto;
+  border-radius: .5rem;
+  background-color: var(--white-transparency);
+}
+
+.header h1 {
+  font-size: 1.8rem;
+  color: var(--gray-primary)
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+  justify-content: center;
+}
+
+.top img {
+  width: 10rem;
+  border-radius: 50%;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.information p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+  padding: .5rem;
+}
+
+.information p::before {
+  content: "";
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  margin-right: .5rem;
+  background-size: contain;
+}
+
+.information .person::before {
+  background: url("/assets/images/icons/person_icon.svg") no-repeat center;
+}
+
+.information .location::before {
+  background: url("/assets/images/icons/location_icon.svg") no-repeat center;
+}
+
+.information .phone::before {
+  background: url("/assets/images/icons/phone_icon.svg") no-repeat center;
+}
+
+.information .mail::before {
+  background: url("/assets/images/icons/mail_icon.svg") no-repeat center;
+}
+
+.information a{
+  text-decoration: none;
+  color: inherit;
+}
