@@ -50,15 +50,19 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   padding: 5rem 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 
 @media screen and (min-width: 768px) {  
   .container {
     width: 100%;
-    height: 100vh;
+    height: auto;
   }
   
   .header .top {
@@ -69,6 +73,7 @@
   }
 
   .border {
+    max-width: 80%;
     border: solid 1px var(--white);
     border-radius: .5rem;
     margin: .5rem;
@@ -83,6 +88,5 @@
 @media screen and (min-width: 1024px) {
   .container {
     width: 980px;
-    height: 140vh;
   }
 }

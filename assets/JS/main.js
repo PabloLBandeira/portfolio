@@ -1,5 +1,6 @@
 const acordeonTriggers = document.querySelectorAll('.trigger');
 
+
 acordeonTriggers.forEach(trigger => {
   trigger.addEventListener('click', () => {
     const parentDiv = trigger.parentElement;
