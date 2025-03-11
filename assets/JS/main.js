@@ -1,13 +1,14 @@
 function updateProfileInfo(profileData) {
+
   const photo = document.getElementById('profile.photo')
-  photo.src=profileData.photo
-  photo.alt=profileData.name
+  photo.src = profileData.photo
+  photo.alt = profileData.name
 
   const name = document.getElementById('profile.name')
   name.innerText = profileData.name
 
   const job = document.getElementById('profile.job')
-  job.innerHTML = profileData.job
+  job.innerText = profileData.job
 
   const location = document.getElementById('profile.location')
   location.innerText = profileData.location
@@ -31,13 +32,13 @@ function updateSoftSkills(profileData) {
 
 function updateHardSkills(profileData) {
   const hardSkills = document.getElementById('profile.skills.hardSkills')
-  hardSkills.innerHTML = profileData.skills.hardSkills.map(skill => <img src="${skill.logo}" alt="${}skill.name"></img>)
+  hardSkills.innerHTML = profileData.skills.hardSkills.map(skill => `<img src="${skill.logo}" alt="${skill.name}"></img>`)
 }
  
  
  
  
- (async () => {
+(async () => {
   const profileData = await fetchProfileData()
   updateProfileInfo(profileData)
   updateSoftSkills(profileData)
