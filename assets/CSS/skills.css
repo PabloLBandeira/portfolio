@@ -43,9 +43,9 @@
 
 #langages ul {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-content: center;
-  justify-content: space-around;
+  justify-content: center;
   width: 100%;
   max-width: 100%;
   margin: .5rem;
@@ -101,6 +101,11 @@ span {
       grid-template-columns: 1fr 1fr;
       width: 100%;
       max-width: 100%;
+    }
+
+    #langages ul {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
     }
 
     #education{
