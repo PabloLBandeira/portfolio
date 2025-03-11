@@ -40,8 +40,10 @@ function updateLanguages(profileData) {
   languages.innerHTML = profileData.languages.map(language => `<li>${language}</li>`).join('')
 }
 
-
- 
+function updateEducation(profileData) {
+  const education = document.getElementById('profile.education')
+  education.innerHTML = profileData.education.map(education => `<li>${education}</li>`).join('')
+}
  
  
  
@@ -51,6 +53,7 @@ function updateLanguages(profileData) {
   updateSoftSkills(profileData)
   updateHardSkills(profileData)
   updateLanguages(profileData)
+  updateEducation(profileData)
  })()
 
 
