@@ -60,22 +60,22 @@
   "education": [
     {
       "name": "Jornalismo",
-      "instituion": "Centro Universitário Uninter - 2015",
+      "institution": "Centro Universitário Uninter - 2015",
       "date": "2015"
     },
     {
       "name": "Ciência de dados",
-      "instituion": "Escpça DNC - 2024",
+      "institution": "Escpça DNC - 2024",
       "date": "2024"
     },
     {
       "name": "Tecnologias específicas",
-      "instituion": "Escola DIO - 2024-2025",
+      "institution": "Escola DIO - 2024-2025",
       "date": "2024-2025"
     },
     {
       "name": "Análise e Desenvolvimento de Sistemas",
-      "instituion": "Centro Universitário Uninter - 2027",
+      "institution": "Centro Universitário Uninter - 2027",
       "date": "2027"
     }
   ],

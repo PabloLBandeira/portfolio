@@ -42,7 +42,15 @@ function updateLanguages(profileData) {
 
 function updateEducation(profileData) {
   const education = document.getElementById('profile.education')
-  education.innerHTML = profileData.education.map(education => `<li>${education}</li>`).join('')
+  education.innerHTML = profileData.education.map(education => {
+    return `
+    <li>
+      <h3>${education.name}</h3>
+      <p>${education.institution} - ${education.date}</p>
+    </li>        
+    `
+
+  })
 }
  
  
