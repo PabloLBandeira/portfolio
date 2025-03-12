@@ -32,8 +32,8 @@
 }
 
 .soft-skills ul {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); 
+  display: flex;
+  flex-direction: column;
   gap: 1.2rem;
   list-style: none; 
   padding: 0;
@@ -46,6 +46,7 @@
   flex-direction: column;
   align-content: center;
   justify-content: center;
+  gap: 1.2rem;
   width: 100%;
   max-width: 100%;
   margin: .5rem;
@@ -59,11 +60,11 @@
   width: 100%;
   max-width: 100%;
   margin: .5rem;
-  gap: .5rem;
+  gap: 1.2rem;
   list-style: none;
 }
 
-#portfolio {
+#portfolio ul{
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -72,12 +73,12 @@
   max-width: 100%;
   margin: .5rem;
   padding: .5rem;
-  gap: 1rem;
+  gap: 1.2rem;
   list-style: none;}
 
   
 
-#experience {
+#experience ul{
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -86,7 +87,8 @@
   line-height: 150%;
   margin: .5rem;
   padding: .5rem;
-  gap: 1rem;
+  gap: 1.2rem;
+  list-style: none;
 }
 
 
@@ -100,6 +102,7 @@ span {
       grid-template-columns: 1fr 1fr;
       width: 100%;
       max-width: 100%;
+      gap: 1.5rem;
     }
 
     #langages ul {

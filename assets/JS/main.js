@@ -45,7 +45,7 @@ function updateEducation(profileData) {
   education.innerHTML = profileData.education.map(education => {
     return `
     <li>
-      <h3>${education.name}</h3>
+      <h4>${education.name}</h4>
       <p>${education.institution} - ${education.date}</p>
     </li>        
     `
@@ -62,7 +62,7 @@ function updatePortfolio(profileData) {
     <a target="_blank" href="${portfolio.url}">${portfolio.name}</a>
   </h4>
   <p> 
-    ${portfolio.description}
+    ${portfolio.scope}
   </p>
 </li>
   `
@@ -100,6 +100,7 @@ function updateExperience(profileData) {
   updateLanguages(profileData)
   updateEducation(profileData)
   updatePortfolio(profileData)
+  updateExperience(profileData)
  })()
 
 

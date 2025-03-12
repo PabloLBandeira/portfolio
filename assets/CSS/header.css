@@ -54,19 +54,19 @@
 }
 
 .information .person::before {
-  background: url("/assets/images/icons/person_icon.svg") no-repeat center;
+  background: url("../images/icons/person_icon.svg") no-repeat center;
 }
 
 .information .location::before {
-  background: url("/assets/images/icons/location_icon.svg") no-repeat center;
+  background: url("../images/icons/location_icon.svg") no-repeat center;
 }
 
 .information .phone::before {
-  background: url("/assets/images/icons/phone_icon.svg") no-repeat center;
+  background: url("../images/icons/phone_icon.svg") no-repeat center;
 }
 
 .information .mail::before {
-  background: url("/assets/images/icons/mail_icon.svg") no-repeat center;
+  background: url("../images/icons/mail_icon.svg") no-repeat center;
 }
 
 .information a{
