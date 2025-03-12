@@ -74,7 +74,8 @@
   margin: .5rem;
   padding: .5rem;
   gap: 1.2rem;
-  list-style: none;}
+  list-style: none;
+}
 
   
 
@@ -97,6 +98,12 @@ span {
 }
 
   @media screen and (min-width: 768px) {
+    .hard-skills {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+       
     .personal-skills {
       display: grid;
       grid-template-columns: 1fr 1fr;
