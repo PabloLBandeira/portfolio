@@ -49,12 +49,10 @@
   width: 100%;
   max-width: 100%;
   margin: .5rem;
-  padding: .5rem;
-  gap: 1rem;
   list-style: none;
 }
 
-#education{
+#education ul{
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -62,6 +60,7 @@
   max-width: 100%;
   margin: .5rem;
   gap: .5rem;
+  list-style: none;
 }
 
 #portfolio {
@@ -110,7 +109,7 @@ span {
       justify-items: center;
     }
 
-    #education{
+    #education ul{
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 100%;

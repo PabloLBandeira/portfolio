@@ -60,52 +60,59 @@
   "education": [
     {
       "name": "Jornalismo",
-      "institution": "Centro Universitário Uninter - 2015",
+      "institution": "Centro Universitário Uninter",
       "date": "2015"
     },
     {
       "name": "Ciência de dados",
-      "institution": "Escpça DNC - 2024",
+      "institution": "Escpça DNC",
       "date": "2024"
     },
     {
       "name": "Tecnologias específicas",
-      "institution": "Escola DIO - 2024-2025",
+      "institution": "Escola DIO",
       "date": "2024-2025"
     },
     {
       "name": "Análise e Desenvolvimento de Sistemas",
-      "institution": "Centro Universitário Uninter - 2027",
+      "institution": "Centro Universitário Uninter",
       "date": "2027"
     }
   ],
   "portfolio": [
     {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
-      "github": true
+      "name": "Pokedex",
+      "url": "https://github.com/PabloLBandeira/Pokedex",
+      "scope": "simulador de uma pokédex criado usando HTML, CSS e JavaScript, foi usada a api da PokeApi para carregar automaticamente as informações sobre os pokemons"
     },
     {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
-      "github": true
+      "name": "Formulário",
+      "url": "https://github.com/PabloLBandeira/form_nlw",
+      "scope": "ormulário criado usando HTML, CSS e JavaScript, desenvolvido durante o evento NLW da Rocket Seat"
+    },
+    {
+      "name": "Conta Bancáriao",
+      "url": "https://github.com/PabloLBandeira/ContaBancaria",
+      "scope": "Simulação de uma conta bancária usando PHP, este projeto, construído para o curso de POO usando PHP, foi usado o Composer para gerenciamento de libs."
+    },
+    {
+      "name": "Portifólio",
+      "url": "https://github.com/PabloLBandeira/portfolio",
+      "scope": "Este projeto, desenvolvido para o curso Formação JavaScript Developer na DIO, utiliza HTML, CSS e JavaScript para exibir dinamicamente as informações obtidas de uma API externa.."
     }
   ],
-  "professionalExperience": [
+  "experience": [
     {
-      "name": "Arquiteto de software / S3 BANK",
-      "period": "2022 - até o momento",
-      "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
+      "name": "Analista de Dados e Mercado",
+      "organization": "Grupo AIZ",
+      "period": "2023 - 2024",
+      "description": "Análise de dados de redes sociais, CRM e de mercado. Estratégias 360 de marketing digital. Redação para redes sociais, site, artigos e e-mail marketing.."
     },
     {
       "name": "Software Engineering Lead / DIO",
-      "period": "2021 - 2022",
-      "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
-    },
-    {
-      "name": "CEO / Brain Machine",
-      "period": "2016 - 2021",
-      "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
+      "period": "2022 - 2023",
+      "organization": "GhFly",
+      "description": "Análise de dados de redes sociais e de mercado. Estratégias 360 de marketing digital. Apresentação de relatórios e estratégias."
     }
   ]
 }

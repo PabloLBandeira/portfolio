@@ -50,8 +50,45 @@ function updateEducation(profileData) {
     </li>        
     `
 
-  })
+  }).join('')
 }
+
+function updatePortfolio(profileData) {
+  const portfolio = document.getElementById('profile.portfolio')
+  portfolio.innerHTML = profileData.portfolio.map(portfolio => {
+    return ` 
+    <li>
+  <h4>
+    <a target="_blank" href="${portfolio.url}">${portfolio.name}</a>
+  </h4>
+  <p> 
+    ${portfolio.description}
+  </p>
+</li>
+  `
+  }).join('')
+}
+
+function updateExperience(profileData) {
+  const experience = document.getElementById('profile.experience')
+  experience.innerHTML = profileData.experience.map(experience => {
+    return ` 
+    <li>
+  <h4>
+    ${experience.name}
+  </h4>
+  <p><span>
+    ${experience.organization} | ${experience.period}
+  </span></p>
+  <p>
+    ${experience.description}
+  </p>
+</li>
+  `
+  }).join('')
+}
+
+
  
  
  
@@ -62,6 +99,7 @@ function updateEducation(profileData) {
   updateHardSkills(profileData)
   updateLanguages(profileData)
   updateEducation(profileData)
+  updatePortfolio(profileData)
  })()
 
 
